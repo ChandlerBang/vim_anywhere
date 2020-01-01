@@ -387,13 +387,33 @@ map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
 map <leader>n :cn<cr>
 map <leader>p :cp<cr>
 
+""""""" personal config for jinwei"""""""
+map <leader>vn :vertical new<cr>
+map <leader>1 :vertical resize +5<cr>
+map <leader>2 :vertical resize -5<cr>
+map <leader>snu :set nu<cr>
+
+abbr forl for (int i = 0; i < ; i++) {<esc>7hi  
+
+abbr imptime <cr>import time<cr>st = time.time()<cr>print(f'time {time.time()-st} passed')  
+abbr imptimee <cr>if i%10 == 0:<cr>import time<cr>st = time.time()<cr>print(f'time {time.time()-st} passed')  
+abbr ipdb <cr>import ipdb<cr>ipdb.set_trace() 
+abbr ifname <cr>if __name__ == '__main__':<cr>pass
+abbr class class:<CR><CR>def __init__(self):<cr>pass<CR><CR><esc>38hi
+" iabbr cl class ClassName(object):<CR><Tab>"""docstring for ClassName"""<CR>def __init__(self, arg):<CR><Tab>super(ClassName, self).__init__()<CR>self.arg = arg 
+abbr slept try {<CR> Thread.sleep();<CR>}<esc>hxA catch(Exception ex) {<CR> ex.printStackTrace();<CR>}<esc>hx3k$hi  
+
+"
+"<esc>18hi
+
+"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => set paste / set nopaste
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>sp :set paste<cr>
 map <leader>snp :set nopaste<cr>
-
-
+map <leader>sn :set nonu<cr>
+"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Spell checking
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
