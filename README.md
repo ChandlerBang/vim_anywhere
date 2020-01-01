@@ -47,3 +47,7 @@ In Ubuntu
 |`,f`       |   go to first window  |
 |`,sp`      | :set paste            |
 |`,snp`     |  `:set nopaste`       |
+|`,sn`     |  `:set nonu`       |
+|`,snu`     |  `:set nu`       |
+|`,vn`     |  `:vertical new`       |
+|`ipdb`     |  `\n import ipdb \n ipdb.set_trace()`       |
